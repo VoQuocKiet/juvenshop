@@ -1,0 +1,79 @@
+.content {
+  display: flex;
+  margin-top: 30px;
+}
+.content1 {
+  font-size: 20px;
+  width: calc(100% / 3);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.content2 {
+  font-size: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+.content-line {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.h1xmas {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.h1pu {
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 30px;
+  padding-left: 30px;
+}
+.h2hot {
+  font-size: 20px;
+}
+.hoticon {
+  padding-left: 40px;
+}
+
+.boxxmas {
+  padding-left: 30px;
+  font-size: 30px;
+  justify-content: center;
+  width: calc(100% / 4);
+}
+
+.boxxmas img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.boxxmas-list {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.boxchildxmas {
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.background {
+  margin-top: 150px;
+  background-image: url("../image/background.jpg");
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
